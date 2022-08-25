@@ -39,7 +39,7 @@ export default function Example() {
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-rose-500">
                         <span className="sr-only">Open main menu</span>
                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -52,8 +52,8 @@ export default function Example() {
                       {item.name}
                     </a>
                   ))}
-                  <a href="/" className=" border border-transparent text-base font-medium rounded text-white bg-indigo-600 hover:bg-indigo-700 md:py-3 md:text-lg md:px-4">
-                  {/* px-4 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 */}
+                  <a href="/" className=" border border-transparent text-base font-medium rounded text-white bg-rose-600 hover:bg-rose-700 md:py-3 md:text-lg md:px-4">
+                  {/* px-4 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10 */}
                     Contato
                   </a>
                 </div>
@@ -78,12 +78,12 @@ export default function Example() {
                     <div>
                       <img
                         className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
+                        src="https://tailwindui.com/img/logos/workflow-mark.svg?color=rose&shade=600"
                         alt=""
                       />
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-rose-500">
                         <span className="sr-only">Close main menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -102,7 +102,7 @@ export default function Example() {
                   </div>
                   <a
                     href="/"
-                    className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+                    className="block w-full px-5 py-3 text-center font-medium text-rose-600 bg-gray-50 hover:bg-gray-100"
                   >
                     Log in
                   </a>
@@ -115,7 +115,7 @@ export default function Example() {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight">
                 <span className="block xl:inline">O Futuro</span>{' '}
-                <span className="block text-indigo-600 xl:inline">Começa aqui</span>
+                <span className="block text-rose-600 xl:inline">Começa aqui</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
@@ -125,7 +125,7 @@ export default function Example() {
                 <div className="rounded-md shadow">
                   <a
                     href="/"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10"
                   >
                     Projetos
                   </a>
@@ -133,7 +133,7 @@ export default function Example() {
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="/"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-rose-700 bg-rose-100 hover:bg-rose-200 md:py-4 md:text-lg md:px-10"
                   >
                     Clientes
                   </a>
