@@ -5,14 +5,19 @@ const About = () => {
         <div>
 
 
-            <a href="/" class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={"https://assets10.lottiefiles.com/packages/lf20_vmoivq9r.json"} alt=""/>
-                    <div class="flex flex-col justify-between p-4 leading-normal">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+
+            <div class="relative bg-white  p-4 mt-32 ">
+                <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
+                    <div class="lg:col-start-2 md:pl-20 mr-11">
+                        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">Suba de patamar <span class="text-rose-600 ">com a Top #1</span>  em desenvolvimento!.</h1>
+                        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Na Here trazemos ideias para a realidade, com soluções criativas, tecnologias mais recentes e ferramentas poderosas!</p>
                     </div>
-            </a>
+                    <div class="mt-10 -mx-4 md:-mx-12 relative lg:mt-0 lg:col-start-1 ">
+                        <img src="/about.gif" alt="illustration" class="relative mx-auto  rounded w-auto" />
+                    </div>
+                </div>
+            </div>
+
 
 
 
