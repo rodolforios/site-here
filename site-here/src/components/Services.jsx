@@ -1,17 +1,18 @@
 import React from 'react'
+import Typewriter from '../hook/Typewriter'
 
 const Services = () => {
     return (
-        <div className='my-48'>
+        <div className='my-48 p-5'>
 
 
             <div className='justify-center items-center text-center my-14'>
-                <h1 className="mb-4 text-5xl font-extrabold text-gray-900  md:text-6xl lg:text-7xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-gray-500 from-rose-600">Better Data</span> Scalable AI.</h1>
-                <p className="text-lg font-normal text-gray-500 lg:text-xl ">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+                <h1 className="mb-4 text-5xl font-extrabold text-gray-900  md:text-6xl lg:text-7xl"> Soluções <span ><Typewriter /></span> Completas.</h1>
+                <p className="text-lg font-normal text-gray-500 lg:text-xl ">Here it é mais do que uma software house, é uma casa de ideias criativas, desde a concepção do projeto,desenvolvimento,deploy e suporte.</p>
             </div>
 
 
-            <div className="sm:flex flex-wrap justify-center items-center text-center gap-8 my-20">
+            <div className="sm:flex flex-wrap justify-center items-center text-center gap-12 my-20 ">
 
 
 
@@ -20,10 +21,10 @@ const Services = () => {
                 <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg ">
                     <div className="flex-shrink-0">
                         <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
-                            <svg width="20" height="20" fill="currentColor" className="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                </path>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
                             </svg>
+
                         </div>
                     </div>
                     <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold  py-4">
@@ -33,17 +34,17 @@ const Services = () => {
                         Encompassing today’s website design technology to integrated and build solutions relevant to your business.
                     </p>
                 </div>
-                <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg ">
+                <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6  bg-white shadow-lg rounded-lg ">
                     <div className="flex-shrink-0">
                         <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
-                            <svg width="20" height="20" fill="currentColor" className="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                </path>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
                             </svg>
+
                         </div>
                     </div>
                     <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold  py-4">
-                        Branding
+                        Mobile
                     </h3>
                     <p className="text-md text-gray-500  py-4">
                         Share relevant, engaging, and inspirational brand messages to create a connection with your audience.
@@ -52,19 +53,37 @@ const Services = () => {
                 <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg ">
                     <div className="flex-shrink-0">
                         <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
-                            <svg width="20" height="20" fill="currentColor" className="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                </path>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
                             </svg>
+
                         </div>
                     </div>
                     <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold  py-4">
-                        SEO Marketing
+                        E-Commerce
                     </h3>
                     <p className="text-md  text-gray-500  py-4">
                         Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
                     </p>
                 </div>
+                {/* <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg ">
+                    <div className="flex-shrink-0">
+                        <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                            </svg>
+
+
+                        </div>
+                    </div>
+                    <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold  py-4">
+                        Desktop
+                    </h3>
+                    <p className="text-md text-gray-500  py-4">
+                        Share relevant, engaging, and inspirational brand messages to create a connection with your audience.
+                    </p>
+                </div> */}
+
             </div>
 
 
