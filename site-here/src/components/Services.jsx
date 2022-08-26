@@ -18,7 +18,7 @@ const Services = () => {
 
 
 
-                <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg ">
+                <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6   shadow-lg rounded-lg border-b-2 border-transparent hover:border-b-rose-500">
                     <div className="flex-shrink-0">
                         <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -31,10 +31,10 @@ const Services = () => {
                         Website Design
                     </h3>
                     <p className="text-md  text-gray-500  py-4">
-                        Encompassing today’s website design technology to integrated and build solutions relevant to your business.
+                    Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
                     </p>
                 </div>
-                <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6  bg-white shadow-lg rounded-lg ">
+                <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6  bg-white shadow-lg rounded-lg border-b-2 border-transparent hover:border-b-rose-500">
                     <div className="flex-shrink-0">
                         <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -50,7 +50,20 @@ const Services = () => {
                         Share relevant, engaging, and inspirational brand messages to create a connection with your audience.
                     </p>
                 </div>
-                <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg ">
+
+
+
+
+
+            </div>
+
+            {/* Segunda Linha */}
+            <div className="sm:flex flex-wrap justify-center items-center text-center gap-12 my-20 ">
+
+
+
+
+                <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg border-b-2 border-transparent hover:border-b-rose-500">
                     <div className="flex-shrink-0">
                         <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -66,7 +79,8 @@ const Services = () => {
                         Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
                     </p>
                 </div>
-                {/* <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg ">
+
+                <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg border-b-2 border-transparent hover:border-b-rose-500">
                     <div className="flex-shrink-0">
                         <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -79,15 +93,15 @@ const Services = () => {
                     <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold  py-4">
                         Desktop
                     </h3>
-                    <p className="text-md text-gray-500  py-4">
-                        Share relevant, engaging, and inspirational brand messages to create a connection with your audience.
+                    <p className="text-md  text-gray-500  py-4">
+                    Criamos e integramos  soluções relevantes para o seu negócio  desde CMS e ERP até  outras tecnologias e automações.
+                       
                     </p>
-                </div> */}
+                </div>
+
+
 
             </div>
-
-
-
 
 
         </div>
