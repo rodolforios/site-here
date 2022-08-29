@@ -13,8 +13,9 @@ function App() {
     <Header/>
     <About/>
     <Services/>
-    <Steps/>
     <Clients/>
+    <Steps/>
+    
     <div className='text-center py-48 border bg-gray-100'>Empresa (wise Home)</div>
     <div className='text-center py-48 border bg-gray-100'>Galeria com projetos</div>
     <Contact/>
