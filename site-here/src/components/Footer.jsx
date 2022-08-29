@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                     <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
                         <div className="space-y-3">
-                            <h3 className="tracking-wide uppercase text-gray-900">Produtos</h3>
+                            <h3 className="tracking-wide uppercase text-gray-900">Serviços</h3>
                             <ul className="space-y-1">
                                 <li>
                                     <a rel="noopener noreferrer" href="/">Website Design</a>
@@ -38,27 +38,27 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="space-y-3">
-                            <h3 className="tracking-wide uppercase text-gray-900">Company</h3>
+                            <h3 className="tracking-wide uppercase text-gray-900">Institucional</h3>
                             <ul className="space-y-1">
                                 <li>
-                                    <a rel="noopener noreferrer" href="/">Privacy</a>
+                                    <a rel="noopener noreferrer" href="/">Sobre nós</a>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="/">Terms of Service</a>
+                                    <a rel="noopener noreferrer" href="/">Clientes</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="space-y-3">
-                            <h3 className="uppercase text-gray-900">Developers</h3>
+                            <h3 className="uppercase text-gray-900">Desenvolvimento</h3>
                             <ul className="space-y-1">
                                 <li>
-                                    <a rel="noopener noreferrer" href="/">Public API</a>
+                                    <a rel="noopener noreferrer" href="/">Processo</a>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="/">Documentation</a>
+                                    <a rel="noopener noreferrer" href="/">Empresa Wise Home</a>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="/">Guides</a>
+                                    <a rel="noopener noreferrer" href="/">Galeria com projetos</a>
                                 </li>
                             </ul>
                         </div>
