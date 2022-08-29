@@ -4,7 +4,7 @@ import React from 'react'
 const Contact = () => {
     return (
        
-        <div className=''>
+        <div className='p-2'>
             <section className="py-6 bg-gray-800 text-gray-50">
             <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                 <div className="py-6 md:py-0 md:px-6">
@@ -32,7 +32,7 @@ const Contact = () => {
                         </p>
                     </div>
                 </div>
-                <form novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+                <form noValidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                     <label className="block">
                         <span className="mb-1">Nome Completo</span>
                         <input type="text" placeholder="Digite seu nome" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 ring-white border p-2 bg-gray-800" />

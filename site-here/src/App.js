@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Header from './components/Header'
 import Services from './components/Services';
 import Steps from './components/Steps.jsx';
+import WiseHome from './components/WiseHome';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
     <Clients/>
     <Steps/>
     
-    <div className='text-center py-48 border bg-gray-100'>Empresa (wise Home)</div>
+    <WiseHome/>
     <div className='text-center py-48 border bg-gray-100'>Galeria com projetos</div>
     <Contact/>
     <Footer/>

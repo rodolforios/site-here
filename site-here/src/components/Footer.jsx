@@ -15,7 +15,7 @@ const Footer = () => {
                                 src="/logo Here sem efeito.png"
                                 alt=""
                             />
-                            <span className="self-center text-2xl font-semibold">O Futuro
+                            <span className="self-center text-lg-2xl font-semibold">O Futuro
                                 Começa aqui</span>
                         </a>
                     </div>
