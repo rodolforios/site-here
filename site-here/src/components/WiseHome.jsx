@@ -1,21 +1,4 @@
-// import React from 'react'
 
-// const WiseHome = () => {
-//   return (
-
-//         <div className=' p-4 bg-gradient-to-r to-orange-400 from-orange-600'>
-
-//         <img className="h-auto w-48" src="/Wisehome_mockup.png" alt=""/>
-
-//         
-
-
-//          </div>
-
-//   )
-// }
-
-// export default WiseHome
 
 import React from 'react'
 
@@ -23,8 +6,8 @@ const WiseHome = () => {
     return (
         <div>
 
-            <div className='flex items-center justify-center'>
-                <h1 class="mb-4 mt-8 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-gray-900">Participamos da <span class="underline underline-offset-3 decoration-8 decoration-orange-400 dark:decoration-orange-600">Wise Home</span></h1>
+            <div className='flex items-center justify-center p-2'>
+                <h1 className="mb-4 mt-8 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-gray-900">Participamos da <span className="underline underline-offset-3 decoration-8 decoration-orange-400 dark:decoration-orange-600">Wise Home</span></h1>
                 
             </div>
 
@@ -50,7 +33,7 @@ const WiseHome = () => {
                     </div>
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
                         <iframe className='h-80  bg-gray-500 aspect-video ' src="https://www.youtube.com/embed/RU84tU0H_vY" title="Divididos entre TRÊS propostas! | Shark Tank Brasil" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        {/* <img src="/Wisehome_mockup.png" alt="" className="h-80  bg-gray-500 aspect-video" /> */}
+                        
                         <div className="flex flex-col justify-center flex-1 p-6  bg-gray-900">
                             
                             <h3 className="text-3xl font-bold">Veja a participação da Wise Home no programa</h3>

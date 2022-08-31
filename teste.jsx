@@ -1,53 +1,59 @@
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Latest Work
+        </h1>
 
 
+        <div class="flex py-4 mt-4 overflow-x-auto overflow-y-hidden md:justify-center dark:border-gray-700">
+            <button
+                class="h-12 px-8 py-2 -mb-px text-sm text-center text-blue-600 bg-transparent border-b-2 border-blue-500 sm:text-base dark:border-blue-400 dark:text-blue-300 whitespace-nowrap focus:outline-none">
+                Animation
+            </button>
 
+            <button
+                class="h-12 px-8 py-2 -mb-px text-sm text-center text-gray-700 bg-transparent border-b-2 border-gray-200 sm:text-base dark:text-white whitespace-nowrap cursor-base focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400">
+                Web design
+            </button>
 
+            <button
+                class="h-12 px-8 py-2 -mb-px text-sm text-center text-gray-700 bg-transparent border-b-2 border-gray-200 sm:text-base dark:text-white whitespace-nowrap cursor-base focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400">
+                App design
+            </button>
 
+            <button
+                class="h-12 px-8 py-2 -mb-px text-sm text-center text-gray-700 bg-transparent border-b-2 border-gray-200 sm:text-base dark:text-white whitespace-nowrap cursor-base focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400">
+                Branding
+            </button>
+        </div>
 
+        <section class="mt-8 space-y-8 lg:mt-12">
+            <section class="lg:flex lg:items-center">
+                <div class="lg:w-1/2 ">
+                    <p class="text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Ui kit</p>
+                    <h2 class="mt-2 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Block
+                        of Ui kit collections</h2>
+                </div>
 
+                <div class="mt-4 lg:w-1/2 lg:mt-0">
+                    <img class="object-cover w-full h-64 rounded-lg md:h-96"
+                        src="https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                        alt="">
+                </div>
+            </section>
 
+            <section class="lg:flex lg:items-center">
+                <div class="lg:w-1/2 ">
+                    <p class="text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Wareframe</p>
+                    <h2 class="mt-2 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Best
+                        free website layout </h2>
+                </div>
 
-
-
-
-<div className="sm:flex flex-wrap justify-center items-center text-center gap-12 my-20 ">
-
-
-
-
-
-    <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6   shadow-lg rounded-lg border-b-2 border-transparent hover:border-b-rose-500">
-        <h2 className='text-2xl my-3'>Contatos:</h2>
-        <p>E-mail: contato@hereit.com.br</p>
-        <p>Cel: +55 (19) 9 9413-5694</p>
-        <h2 className='text-2xl my-3'>Endereço:</h2>
-        <p>Rua João Papa XIII, 405</p>
-        <p>Pq Ortolândia,</p>
-        <p>Hortolândia, SP</p>
+                <div class="mt-4 lg:w-1/2 lg:mt-0">
+                    <img class="object-cover w-full h-64 rounded-lg md:h-96"
+                        src="https://images.unsplash.com/photo-1600132806608-231446b2e7af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+                        alt="">
+                </div>
+            </section>
+        </section>
     </div>
-    <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6  bg-white shadow-lg rounded-lg border-b-2 border-transparent hover:border-b-rose-500">
-        <Maps />
-    </div>
-    <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6  bg-white shadow-lg rounded-lg border-b-2 border-transparent hover:border-b-rose-500">
-        <form noValidate="" className="space-y-6 ng-untouched ng-pristine ng-valid">
-            <div>
-                <label htmlFor="name" className="text-sm">Nome completo</label>
-                <input id="name" type="text" placeholder="" className="w-full p-3 rounded  bg-white border" />
-            </div>
-            <div>
-                <label htmlFor="email" className="text-sm">E-mail</label>
-                <input id="email" type="email" className="w-full p-3 rounded  bg-white border" />
-            </div>
-            <div>
-                <label htmlFor="message" className="text-sm">Menssagem</label>
-                <textarea id="message" rows="3" className="w-full p-3 rounded  bg-white border"></textarea>
-            </div>
-            <button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded  bg-rose-600 hover:bg-rose-500 text-white">Enviar</button>
-        </form>
-    </div>
-
-
-
-
-
-</div>
+</section>

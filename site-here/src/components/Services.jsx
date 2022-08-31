@@ -8,7 +8,7 @@ const Services = () => {
 
             <div className='justify-center items-center text-center my-14'>
                 <h1 className="mb-4 text-5xl font-extrabold text-gray-900  md:text-6xl lg:text-7xl"> Soluções <span ><Typewriter /></span> Completas.</h1>
-                <p className="text-lg font-normal text-gray-500 lg:text-xl ">Here it é mais do que uma software house, é uma casa de ideias criativas, desde a concepção do projeto,desenvolvimento,deploy e suporte.</p>
+                <p className="text-lg font-normal text-gray-500 lg:text-xl my-8">Here it é mais do que uma software house, é uma casa de ideias criativas, desde a concepção do projeto,desenvolvimento,deploy e suporte.</p>
             </div>
 
 
@@ -31,7 +31,7 @@ const Services = () => {
                         Website Design
                     </h3>
                     <p className="text-md  text-gray-500  py-4">
-                    Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
+                        Desenvolvemos os melhores designs, utilizando a metodologia Design thinkin desde as interfaces até a experiência com o usuário.
                     </p>
                 </div>
                 <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6  bg-white shadow-lg rounded-lg border-b-2 border-transparent hover:border-b-rose-500">
@@ -47,7 +47,7 @@ const Services = () => {
                         Mobile
                     </h3>
                     <p className="text-md text-gray-500  py-4">
-                        Share relevant, engaging, and inspirational brand messages to create a connection with your audience.
+                        Desenvolvemos qualquer tipo de aplicativo para celular IOS e Android. Os aplicativos são 100% personalizados para as funcionalidades que sua empresa necessita.
                     </p>
                 </div>
 
@@ -76,7 +76,7 @@ const Services = () => {
                         E-Commerce
                     </h3>
                     <p className="text-md  text-gray-500  py-4">
-                        Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
+                    Criamos E-commerces atraentes e performáticos, para que sua loja não obtenha mais vendas.
                     </p>
                 </div>
 
@@ -94,8 +94,8 @@ const Services = () => {
                         Desktop
                     </h3>
                     <p className="text-md  text-gray-500  py-4">
-                    Criamos e integramos  soluções relevantes para o seu negócio  desde CMS e ERP até  outras tecnologias e automações.
-                       
+                        Criamos e integramos  soluções relevantes para o seu negócio  através de uma consultoria personalizada.
+
                     </p>
                 </div>
 
