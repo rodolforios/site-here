@@ -4,6 +4,7 @@ import { useState } from "react";
 
 
 import React from 'react'
+// import Modal from './Modal';
 
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -13,9 +14,9 @@ const Projects = () => {
   };
   return (
 
-    <div>
+    <div className='mt-24' id='projects'>
       <h1 className=" px-4 mt-20 relative text-center mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">Projetos já feitos pela HereIT</h1>
-      <p className="mb-6 px-4 text-lg relative text-center font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+      <p className="mb-6 px-4 text-lg relative text-center font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">Aqui você pode ver alguns de nossos projetos mais bem sucedidos.</p>
 
       <Tabs>
         <section className="bg-white ">
@@ -68,10 +69,28 @@ const Projects = () => {
                 {/* Conteúdo Todos */}
                 <TabPanel>
                   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
-                  <div>
-                      <img className="object-cover w-full rounded-lg h-96 "
+                    <div>
+                      {/* <img className="object-cover w-full rounded-lg h-96  "
                         src="/mockup Scan do brasil.png"
-                        alt="" />
+                        alt="" /> */}
+
+
+
+                      <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                        style={{ backgroundImage: `url("/mockup Scan do brasil.png")` }}>
+                        <div
+                          class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+
+
+                          {/* <Modal/>  */}
+
+
+
+
+                        </div>
+                      </div>
+
+
                       <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Scan</h2>
                       <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website/Ecommerce</p>
                     </div>
@@ -119,7 +138,7 @@ const Projects = () => {
 
                 {/* Conteúdo web */}
                 <TabPanel>
-                <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
+                  <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
                     <div>
                       <img className="object-cover w-full rounded-lg h-96 "
                         src="/mockup Scan do brasil.png"
@@ -127,7 +146,7 @@ const Projects = () => {
                       <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Scan</h2>
                       <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website/Ecommerce</p>
                     </div>
-                    
+
 
                   </div>
 
@@ -185,14 +204,14 @@ const Projects = () => {
                       <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Scan</h2>
                       <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website/Ecommerce</p>
                     </div>
-                    
+
 
                   </div>
 
                 </TabPanel>
                 {/* Conteúdo Desktop */}
                 <TabPanel>
-                <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
+                  <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
                     <div>
                       <img className="object-cover w-full rounded-lg h-96 "
                         src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"

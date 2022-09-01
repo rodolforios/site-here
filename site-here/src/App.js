@@ -9,19 +9,18 @@ import Projects from './components/Projects';
 import Services from './components/Services';
 import Steps from './components/Steps.jsx';
 import WiseHome from './components/WiseHome';
-import Teste from './Teste'
+
 
 function App() {
   return (
     <div className="App">
     <Header/>
-    <About/>
-    <Services/>
-    <Clients/>
-    <Steps/>    
+    <About/>    
+    <Services/>      
+    <Steps/>
+    <Clients/>        
     <WiseHome/>
-    <Projects/>
-     <Teste/> 
+    <Projects/>      
     <Contact/>
     <Footer/>
     

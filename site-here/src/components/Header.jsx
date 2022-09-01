@@ -4,10 +4,10 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Sobre', href: '/' },
-  { name: 'Produtos', href: '/' },
-  { name: 'Projetos', href: '/' },
+  { name: 'Home', href: '' },
+  { name: 'Sobre', href: '#about' },
+  { name: 'Produtos', href: '#services' },
+  { name: 'Projetos', href: '#projects' },
 ]
 
 export default function Example() {
@@ -46,13 +46,13 @@ export default function Example() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 ">
                   {navigation.map((item) => (
                     <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
                       {item.name}
                     </a>
                   ))}
-                  <a href="/" className=" border border-transparent text-base font-medium rounded text-white bg-rose-600 hover:bg-rose-700 md:py-3 md:text-lg md:px-4">
+                  <a href="#footer" className=" border border-transparent text-base font-medium rounded text-white bg-rose-600 hover:bg-rose-700 md:py-3 md:text-lg md:px-4">
                   
                     Contato
                   </a>
@@ -123,7 +123,7 @@ export default function Example() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="/"
+                    href="#projects"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10"
                   >
                     Projetos
@@ -131,7 +131,7 @@ export default function Example() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="/"
+                    href="#clients"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-rose-700 bg-rose-100 hover:bg-rose-200 md:py-4 md:text-lg md:px-10"
                   >
                     Clientes

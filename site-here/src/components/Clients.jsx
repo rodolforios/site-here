@@ -6,7 +6,7 @@ const Clients = () => {
 
 
 
-            <section className="p-6 bg-gray-50 text-gray-700">
+            <section className="p-6 bg-gray-50 text-gray-700 mt-20 " id='clients'>
 
                 <div className="container p-4 mx-auto text-center">
                     <h2 className="text-4xl font-bold">Clientes que <span className='border-b-4 border-rose-600'>Confiam</span> na HereIT</h2>

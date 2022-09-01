@@ -3,7 +3,7 @@ import Typewriter from '../hook/Typewriter'
 
 const Services = () => {
     return (
-        <div className='my-48 p-5'>
+        <div className='my-10 p-5' id='services'>
 
 
             <div className='justify-center items-center text-center my-14'>
