@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import Services from './components/Services';
 import Steps from './components/Steps.jsx';
 import WiseHome from './components/WiseHome';
+import Teste from './Teste'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Steps/>    
     <WiseHome/>
     <Projects/>
+     <Teste/> 
     <Contact/>
     <Footer/>
     
