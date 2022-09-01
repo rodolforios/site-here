@@ -30,27 +30,34 @@ const Projects = () => {
                       <button
                         className={toggleState === 1 ? "block text-gray-500 border border-b-2 border-transparent border-b-rose-600" : "block border-b-2 text-gray-500 border border-transparent"}
                         onClick={() => toggleTab(1)}>
+                        Todos
+                      </button>
+                    </Tab>
+                    <Tab>
+                      <button
+                        className={toggleState === 2 ? "block text-gray-500 border border-b-2 border-transparent border-b-rose-600" : "block border-b-2 text-gray-500 border border-transparent"}
+                        onClick={() => toggleTab(2)}>
                         Website Design
                       </button>
                     </Tab>
                     <Tab>
                       <button
-                        className={toggleState === 2 ? "block text-gray-500 border border-transparent border-b-2 border-b-rose-600" : "block border-b-2 text-gray-500 border border-transparent"}
-                        onClick={() => toggleTab(2)}>
+                        className={toggleState === 3 ? "block text-gray-500 border border-transparent border-b-2 border-b-rose-600" : "block border-b-2 text-gray-500 border border-transparent"}
+                        onClick={() => toggleTab(3)}>
                         Mobile
                       </button>
                     </Tab>
                     <Tab >
                       <button
-                        className={toggleState === 3 ? "block text-gray-500 border border-transparent border-b-2 border-b-rose-600" : "block border-b-2 text-gray-500 border border-transparent"}
-                        onClick={() => toggleTab(3)}>
+                        className={toggleState === 4 ? "block text-gray-500 border border-transparent border-b-2 border-b-rose-600" : "block border-b-2 text-gray-500 border border-transparent"}
+                        onClick={() => toggleTab(4)}>
                         E-Commerce
                       </button>
                     </Tab>
                     <Tab>
                       <button
-                        className={toggleState === 4 ? "block text-gray-500 border border-b-2 border-b-rose-600" : "block text-gray-500 border-b-2 border border-transparent"}
-                        onClick={() => toggleTab(4)}>
+                        className={toggleState === 5 ? "block text-gray-500 border border-b-2 border-b-rose-600" : "block text-gray-500 border-b-2 border border-transparent"}
+                        onClick={() => toggleTab(5)}>
                         Desktop
                       </button>
                     </Tab>
@@ -58,102 +65,153 @@ const Projects = () => {
                 </TabList>
               </div>
               <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
-                {/* Conteúdo Web */}
+                {/* Conteúdo Todos */}
                 <TabPanel>
                   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
+                  <div>
+                      <img className="object-cover w-full rounded-lg h-96 "
+                        src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
+                        alt="" />
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Scan</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website/Ecommerce</p>
+                    </div>
+
                     <div>
                       <img className="object-cover w-full rounded-lg h-96 "
                         src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
                         alt="" />
-                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Best website
-                        collections</h2>
-                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website</p>
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">V Bank</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Aplicativo</p>
                     </div>
                     <div>
                       <img className="object-cover w-full rounded-lg h-96 "
                         src="https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                         alt="" />
-                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Block of Ui kit
-                        collections</h2>
-                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Ui kit</p>
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Wise Home</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Aplicativo</p>
                     </div>
                     <div>
                       <img className="object-cover w-full rounded-lg h-96 "
-                        src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
                         alt="" />
-                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Ton’s of mobile
-                        mockup</h2>
-                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Mockups</p>
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Midia na TV</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Aplicativo</p>
                     </div>
+                    <div>
+                      <img className="object-cover w-full rounded-lg h-96 "
+                        src="https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                        alt="" />
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Estudio didático</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Aplicativo</p>
+                    </div>
+                    <div>
+                      <img className="object-cover w-full rounded-lg h-96 "
+                        src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
+                        alt="" />
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Scan</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website/Ecommerce</p>
+                    </div>
+
                   </div>
+
+
+                </TabPanel>
+
+                {/* Conteúdo web */}
+                <TabPanel>
+                <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
+                    <div>
+                      <img className="object-cover w-full rounded-lg h-96 "
+                        src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
+                        alt="" />
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Scan</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website/Ecommerce</p>
+                    </div>
+                    
+
+                  </div>
+
+
                 </TabPanel>
 
                 {/* Conteúdo Mobile */}
                 <TabPanel>
-
                   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
                     <div>
                       <img className="object-cover w-full rounded-lg h-96 "
                         src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
                         alt="" />
-                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Best website
-                        collections</h2>
-                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website</p>
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">V Bank</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Aplicativo</p>
                     </div>
                     <div>
                       <img className="object-cover w-full rounded-lg h-96 "
                         src="https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                         alt="" />
-                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Block of Ui kit
-                        collections</h2>
-                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Ui kit</p>
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Wise Home</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Aplicativo</p>
                     </div>
-                    <div>
-                      <img className="object-cover w-full rounded-lg h-96 "
-                        src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                        alt="" />
-                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Ton’s of mobile
-                        mockup</h2>
-                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Mockups</p>
-                    </div>
-                  </div>
-
-
-                  <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
                     <div>
                       <img className="object-cover w-full rounded-lg h-96 "
                         src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
                         alt="" />
-                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Best website
-                        collections</h2>
-                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website</p>
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Midia na TV</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Aplicativo</p>
                     </div>
                     <div>
                       <img className="object-cover w-full rounded-lg h-96 "
                         src="https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                         alt="" />
-                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Block of Ui kit
-                        collections</h2>
-                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Ui kit</p>
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Estudio didático</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Aplicativo</p>
                     </div>
-                    <div>
-                      <img className="object-cover w-full rounded-lg h-96 "
-                        src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                        alt="" />
-                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Ton’s of mobile
-                        mockup</h2>
-                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Mockups</p>
-                    </div>
+
                   </div>
+
+
 
 
 
 
                 </TabPanel>
                 {/* Conteúdo Ecommerce */}
-                <TabPanel></TabPanel>
+                <TabPanel>
+
+                  <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
+                    <div>
+                      <img className="object-cover w-full rounded-lg h-96 "
+                        src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
+                        alt="" />
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Scan</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website/Ecommerce</p>
+                    </div>
+                    
+
+                  </div>
+
+                </TabPanel>
                 {/* Conteúdo Desktop */}
-                <TabPanel></TabPanel>
+                <TabPanel>
+                <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
+                    <div>
+                      <img className="object-cover w-full rounded-lg h-96 "
+                        src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
+                        alt="" />
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Best website
+                        collections</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website</p>
+                    </div>
+                    <div>
+                      <img className="object-cover w-full rounded-lg h-96 "
+                        src="https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                        alt="" />
+                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Block of Ui kit
+                        collections</h2>
+                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Ui kit</p>
+                    </div>
+
+                  </div>
+                </TabPanel>
               </div>
             </div>
           </div>
