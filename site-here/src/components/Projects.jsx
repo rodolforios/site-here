@@ -76,10 +76,10 @@ const Projects = () => {
 
 
 
-                      <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                      <div className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
                         style={{ backgroundImage: `url("/mockup Scan do brasil.png")` }}>
                         <div
-                          class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                          className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
 
 
                           {/* <Modal/>  */}
