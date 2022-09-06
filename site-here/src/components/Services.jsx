@@ -76,7 +76,7 @@ const Services = () => {
                         E-Commerce
                     </h3>
                     <p className="text-md  text-gray-500  py-4">
-                    Criamos E-commerces atraentes e performáticos, para que sua loja não obtenha mais vendas.
+                    Criamos E-commerces atraentes e performáticos, para que sua loja  obtenha mais vendas.
                     </p>
                 </div>
 

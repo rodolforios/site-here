@@ -55,13 +55,13 @@ const Projects = () => {
                         E-Commerce
                       </button>
                     </Tab>
-                    <Tab>
+                    {/* <Tab>
                       <button
                         className={toggleState === 5 ? "block text-gray-500 border border-b-2 border-b-rose-600" : "block text-gray-500 border-b-2 border border-transparent"}
                         onClick={() => toggleTab(5)}>
                         Desktop
                       </button>
-                    </Tab>
+                    </Tab> */}
                   </div>
                 </TabList>
               </div>
@@ -210,7 +210,7 @@ const Projects = () => {
 
                 </TabPanel>
                 {/* Conteúdo Desktop */}
-                <TabPanel>
+                {/* <TabPanel>
                   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
                     <div>
                       <img className="object-cover w-full rounded-lg h-96 "
@@ -230,7 +230,7 @@ const Projects = () => {
                     </div>
 
                   </div>
-                </TabPanel>
+                </TabPanel> */}
               </div>
             </div>
           </div>

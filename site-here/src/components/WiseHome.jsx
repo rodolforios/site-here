@@ -7,7 +7,7 @@ const WiseHome = () => {
         <div>
 
             <div className=' relative text-center items-center justify-center p-2 mt-20' id='wisehome'>
-                <h1 className="mb-4 mt-8 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-gray-900">Participamos da <span className="underline underline-offset-3 decoration-8 decoration-orange-400 dark:decoration-orange-600">WiseHome</span></h1>
+                <h1 className="mb-4 mt-8 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-gray-900">Participamos com a <span className="underline underline-offset-3 decoration-8 decoration-orange-400 dark:decoration-orange-600">WiseHome</span></h1>
                 
             </div>
 
