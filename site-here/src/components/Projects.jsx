@@ -123,13 +123,7 @@ const Projects = () => {
                       <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Estudio didático</h2>
                       <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Aplicativo</p>
                     </div>
-                    <div>
-                      <img className="object-cover w-full rounded-lg h-96 "
-                        src="/mockup Scan do brasil.png"
-                        alt="" />
-                      <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize ">Scan</h2>
-                      <p className="mt-2 text-lg tracking-wider text-rose-500 uppercase  ">Website/Ecommerce</p>
-                    </div>
+                    
 
                   </div>
 

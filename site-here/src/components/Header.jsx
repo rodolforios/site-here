@@ -3,12 +3,18 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
+import {Link} from 'react-scroll'
+
+
+
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Sobre', href: '#about' },
-  { name: 'Produtos', href: '#services' },
-  { name: 'Projetos', href: '#projects' },
+  { name: 'Home', to: '/' },
+  { name: 'Sobre', to: 'about' },
+  { name: 'Produtos', to: 'services' },
+  { name: 'Projetos', to: 'projects' },
 ]
+
+
 
 export default function Example() {
   return (
@@ -48,14 +54,14 @@ export default function Example() {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 ">
                   {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                    <Link key={item.name} to={item.to}  spy={true} smooth={true} offset={50} duration={500} className="font-medium cursor-pointer text-gray-500 hover:text-gray-900">
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
-                  <a href="#footer" className=" border border-transparent text-base font-medium rounded text-white bg-rose-600 hover:bg-rose-700 md:py-3 md:text-lg md:px-4">
+                  <Link to="footer" spy={true} smooth={true} offset={50} duration={500} className=" border cursor-pointer border-transparent text-base font-medium rounded text-white bg-rose-600 hover:bg-rose-700 md:py-3 md:text-lg md:px-4">
 
                     Contato
-                  </a>
+                  </Link>
                 </div>
               </nav>
             </div>
@@ -91,21 +97,23 @@ export default function Example() {
                   </div>
                   <div className="px-2 pt-2 pb-3 space-y-1">
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
-                        className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                        to={item.to}
+                        className="block cursor-pointer px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                        spy={true} smooth={true} offset={50} duration={500}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
-                  <a
-                    href="#contact"
+                  <Link
+                    to="contact"
+                    spy={true} smooth={true} offset={50} duration={500}
                     className="block w-full px-5 py-3 text-center font-medium text-rose-600 bg-gray-50 hover:bg-gray-100"
                   >
                     Contato
-                  </a>
+                  </Link>
                 </div>
               </Popover.Panel>
             </Transition>
@@ -122,20 +130,20 @@ export default function Example() {
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="#projects"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10"
+                  <Link
+                    to="projects" spy={true} smooth={true} offset={50} duration={500} 
+                    className="w-full cursor-pointer flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10"
                   >
                     Projetos
-                  </a>
+                  </Link>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <a
-                    href="#clients"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-rose-700 bg-rose-100 hover:bg-rose-200 md:py-4 md:text-lg md:px-10"
+                  <Link
+                    to="clients" spy={true} smooth={true} offset={50} duration={500} 
+                    className="w-full cursor-pointer flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-rose-700 bg-rose-100 hover:bg-rose-200 md:py-4 md:text-lg md:px-10"
                   >
                     Clientes
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

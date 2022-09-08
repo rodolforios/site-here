@@ -18,17 +18,17 @@ function App() {
   return (
     <div className="App">
 
-      
-        
-          <div className='fixed bottom-10 right-10 z-10'>
-            <a href="https://tinyurl.com/6ufups54" target="_blank" rel="noreferrer">
-              <Fab color="success" aria-label="add">
-                <WhatsAppIcon />
-              </Fab>
-            </a>
-          </div>
-        
-     
+
+
+      <div className='fixed bottom-10 right-10 z-10'>
+        <a href="https://tinyurl.com/6ufups54" target="_blank" rel="noreferrer">
+          <Fab color="success" aria-label="add">
+            <WhatsAppIcon />
+          </Fab>
+        </a>
+      </div>
+
+
 
       <Header />
       <About />
