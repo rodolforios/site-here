@@ -4,7 +4,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Home', href: '' },
+  { name: 'Home', href: '/' },
   { name: 'Sobre', href: '#about' },
   { name: 'Produtos', href: '#services' },
   { name: 'Projetos', href: '#projects' },
@@ -53,7 +53,7 @@ export default function Example() {
                     </a>
                   ))}
                   <a href="#footer" className=" border border-transparent text-base font-medium rounded text-white bg-rose-600 hover:bg-rose-700 md:py-3 md:text-lg md:px-4">
-                  
+
                     Contato
                   </a>
                 </div>
@@ -101,7 +101,7 @@ export default function Example() {
                     ))}
                   </div>
                   <a
-                    href="/"
+                    href="#contact"
                     className="block w-full px-5 py-3 text-center font-medium text-rose-600 bg-gray-50 hover:bg-gray-100"
                   >
                     Contato
@@ -118,7 +118,7 @@ export default function Example() {
                 <span className="block text-rose-600 xl:inline ">Começa aqui </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              A HereIt está há mais de 12 anos no mercado desenvolvendo tecnologias  para seus clientes. 
+                A HereIt está há mais de 12 anos no mercado desenvolvendo tecnologias  para seus clientes.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -149,6 +149,7 @@ export default function Example() {
           alt=""
         />
       </div>
+      
     </div>
   )
 }

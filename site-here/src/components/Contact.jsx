@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 
+
 const Contact = () => {
 
     const form = useRef();
@@ -22,7 +23,7 @@ const Contact = () => {
     return (
 
         <div className='p-2'>
-            <section className="py-6 bg-gray-800 text-gray-50">
+            <section className="py-6 bg-gray-800 text-gray-50" id='contact' >
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                     <div className="py-6 md:py-0 md:px-6">
                         <h1 className="text-4xl font-bold mb-10">Entre em contato</h1>
