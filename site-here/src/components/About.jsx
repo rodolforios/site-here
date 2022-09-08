@@ -2,13 +2,15 @@ import React from 'react'
 
 
 
+
 const About = () => {
     return (
-        <div>
 
 
 
-            <div className="relative bg-white  p-4 mt-32 divide-x" id='about'>
+
+        <div className="relative bg-white  p-4 mt-32 divide-x" id='about'>
+            
                 <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
                     <div className="lg:col-start-2 md:pl-20 mr-11 ">
                         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl px-4">Suba de patamar <span className="text-rose-600 ">com a Top #1</span>  em desenvolvimento!</h1>
@@ -27,12 +29,13 @@ const About = () => {
 
                     </div>
                 </div>
-            </div>
-
-
-
-
+            
         </div>
+
+
+
+
+
     )
 }
 

@@ -20,7 +20,10 @@ function App() {
 
 
 
-      <div className='fixed bottom-10 right-10 z-10'>
+      <div className='fixed bottom-10 right-10 z-10 animate-bounce '>
+
+      
+
         <a href="https://tinyurl.com/6ufups54" target="_blank" rel="noreferrer">
           <Fab color="success" aria-label="add">
             <WhatsAppIcon />
