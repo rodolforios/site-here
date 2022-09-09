@@ -3,7 +3,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 
 
 
@@ -18,7 +18,7 @@ const navigation = [
 
 export default function Example() {
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div className="relative bg-white overflow-hidden" id='header'>
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
@@ -54,7 +54,7 @@ export default function Example() {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 ">
                   {navigation.map((item) => (
-                    <Link key={item.name} to={item.to}  spy={true} smooth={true} offset={50} duration={500} className="font-medium cursor-pointer text-gray-500 hover:text-gray-900">
+                    <Link key={item.name} to={item.to} spy={true} smooth={true} offset={50} duration={500} className="font-medium cursor-pointer text-gray-500 hover:text-gray-900">
                       {item.name}
                     </Link>
                   ))}
@@ -131,7 +131,7 @@ export default function Example() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <Link
-                    to="projects" spy={true} smooth={true} offset={50} duration={500} 
+                    to="projects" spy={true} smooth={true} offset={50} duration={500}
                     className="w-full cursor-pointer flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10"
                   >
                     Projetos
@@ -139,7 +139,7 @@ export default function Example() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <Link
-                    to="clients" spy={true} smooth={true} offset={50} duration={500} 
+                    to="clients" spy={true} smooth={true} offset={50} duration={500}
                     className="w-full cursor-pointer flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-rose-700 bg-rose-100 hover:bg-rose-200 md:py-4 md:text-lg md:px-10"
                   >
                     Clientes
@@ -157,7 +157,7 @@ export default function Example() {
           alt=""
         />
       </div>
-      
+
     </div>
   )
 }

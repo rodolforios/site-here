@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-scroll'
 
 const Footer = () => {
 
@@ -22,43 +23,43 @@ const Footer = () => {
                     <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
                         <div className="space-y-3">
                             <h3 className="tracking-wide uppercase text-gray-900">Serviços</h3>
-                            <ul className="space-y-1">
+                            <ul className="space-y-1 cursor-pointer">
                                 <li>
-                                    <a rel="noopener noreferrer" href="#services">Website Design</a>
+                                    <Link rel="noopener noreferrer" to="services" spy={true} smooth={true} offset={50} duration={500} >Website Design</Link>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="#services">Mobile</a>
+                                    <Link rel="noopener noreferrer" to="services" spy={true} smooth={true} offset={50} duration={500}>Mobile</Link>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="#services">E-Commerce</a>
+                                    <Link rel="noopener noreferrer" to="services" spy={true} smooth={true} offset={50} duration={500}>E-Commerce</Link>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="#services">Desktop</a>
+                                    <Link rel="noopener noreferrer" to="services" spy={true} smooth={true} offset={50} duration={500}>Desktop</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="space-y-3">
                             <h3 className="tracking-wide uppercase text-gray-900">Institucional</h3>
-                            <ul className="space-y-1">
+                            <ul className="space-y-1 cursor-pointer">
                                 <li>
-                                    <a rel="noopener noreferrer" href="#about">Sobre nós</a>
+                                    <Link rel="noopener noreferrer" to="about" spy={true} smooth={true} offset={50} duration={500} >Sobre nós</Link>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="#clients">Clientes</a>
+                                    <Link rel="noopener noreferrer" to="clients" spy={true} smooth={true} offset={50} duration={500}  >Clientes</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="space-y-3">
                             <h3 className="uppercase text-gray-900">Desenvolvimento</h3>
-                            <ul className="space-y-1">
+                            <ul className="space-y-1 cursor-pointer">
                                 <li>
-                                    <a rel="noopener noreferrer" href="#steps">Processo</a>
+                                    <Link rel="noopener noreferrer" to="steps" spy={true} smooth={true} offset={50} duration={500} >Processo</Link>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="#wisehome">Empresa Wise Home</a>
+                                    <Link rel="noopener noreferrer" to="wisehome" spy={true} smooth={true} offset={50} duration={500} >Empresa Wise Home</Link>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" href="#projects">Galeria com projetos</a>
+                                    <Link rel="noopener noreferrer" to="projects" spy={true} smooth={true} offset={50} duration={500} >Galeria com projetos</Link>
                                 </li>
                             </ul>
                         </div>
