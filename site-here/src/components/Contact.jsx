@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -25,7 +25,7 @@ const Contact = () => {
 
         <div className='p-2'>
             <section className="py-6 bg-gray-800 text-gray-50" id='contact' >
-                <Slide bottom>
+                <Fade >
                     <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                         <div className="py-6 md:py-0 md:px-6">
                             <h1 className="text-4xl font-bold mb-10">Entre em contato</h1>
@@ -67,7 +67,7 @@ const Contact = () => {
                             <input type="submit" value="Enviar" className="self-center px-8 py-2 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-rose-500 text-white focus:ring-rose-500 hover:ring-rose-500"/>
                         </form>
                     </div>
-                </Slide>
+                </Fade>
             </section>
         </div>)
 }
