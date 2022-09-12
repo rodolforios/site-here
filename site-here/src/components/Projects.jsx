@@ -1,6 +1,8 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { useState } from "react";
 
+import Slide from 'react-reveal/Slide';
+
 
 
 import React from 'react'
@@ -15,8 +17,10 @@ const Projects = () => {
   return (
 
     <div className='mt-24' id='projects'>
-      <h1 className=" px-4 mt-20 relative text-center mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">Projetos já feitos pela HereIT</h1>
-      <p className="mb-6 px-4 text-lg relative text-center font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">Aqui você pode ver alguns de nossos projetos mais bem sucedidos.</p>
+      <Slide bottom>
+        <h1 className=" px-4 mt-20 relative text-center mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">Projetos já feitos pela <span className="underline underline-offset-3 decoration-8 decoration-rose-500 ">HereIT</span></h1>
+        <p className="mb-6 px-4 text-lg relative text-center font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">Aqui você pode ver alguns de nossos projetos mais bem sucedidos.</p>
+      
 
       <Tabs>
         <section className="bg-white ">
@@ -230,6 +234,7 @@ const Projects = () => {
           </div>
         </section >
       </Tabs >
+      </Slide>
     </div>
   )
 }

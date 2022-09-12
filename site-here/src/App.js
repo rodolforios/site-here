@@ -36,14 +36,14 @@ function App() {
       <Header />
 
 
-      <About className='transition duration-500 ease-in-out'/>
-      <Services className='transition duration-500 ease-in-out' />
-      <Steps className='transition duration-500 ease-in-out' />
-      <Clients className='transition duration-500 ease-in-out' />
-      <WiseHome className='transition duration-500 ease-in-out' />
-      <Projects className='transition duration-500 ease-in-out' />
-      <Contact className='transition duration-500 ease-in-out' />
-      <Footer className='transition duration-500 ease-in-out' />
+      <About />
+      <Services  />
+      <Steps />
+      <Clients/>
+      <WiseHome/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
 
 
 

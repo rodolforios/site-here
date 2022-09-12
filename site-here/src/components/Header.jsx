@@ -5,6 +5,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 import { Link } from 'react-scroll'
 
+import Fade from 'react-reveal/Fade';
 
 
 const navigation = [
@@ -13,7 +14,6 @@ const navigation = [
   { name: 'Produtos', to: 'services' },
   { name: 'Projetos', to: 'projects' },
 ]
-
 
 
 export default function Example() {
@@ -120,44 +120,49 @@ export default function Example() {
           </Popover>
 
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-            <div className="sm:text-center lg:text-left ">
-              <h1 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight">
-                <span className="block xl:inline text-gray-900 font-bold">O Futuro</span>{' '}
-                <span className="block text-rose-600 xl:inline ">Começa aqui </span>
-              </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                A HereIt está há mais de 12 anos no mercado desenvolvendo tecnologias  para seus clientes.
-              </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <Link
-                    to="projects" spy={true} smooth={true} offset={50} duration={500}
-                    className="w-full cursor-pointer flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10"
-                  >
-                    Projetos
-                  </Link>
-                </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <Link
-                    to="clients" spy={true} smooth={true} offset={50} duration={500}
-                    className="w-full cursor-pointer flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-rose-700 bg-rose-100 hover:bg-rose-200 md:py-4 md:text-lg md:px-10"
-                  >
-                    Clientes
-                  </Link>
+            <Fade left>
+
+              <div className="sm:text-center lg:text-left ">
+                <h1 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight">
+                  <span className="block xl:inline text-gray-900 font-bold">O Futuro</span>{' '}
+                  <span className="block text-rose-600 xl:inline ">Começa aqui </span>
+                </h1>
+                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                  A HereIt está há mais de 12 anos no mercado desenvolvendo tecnologias  para seus clientes.
+                </p>
+                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                  <div className="rounded-md shadow">
+                    <Link
+                      to="projects" spy={true} smooth={true} offset={50} duration={500}
+                      className="w-full cursor-pointer flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10"
+                    >
+                      Projetos
+                    </Link>
+                  </div>
+                  <div className="mt-3 sm:mt-0 sm:ml-3">
+                    <Link
+                      to="clients" spy={true} smooth={true} offset={50} duration={500}
+                      className="w-full cursor-pointer flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-rose-700 bg-rose-100 hover:bg-rose-200 md:py-4 md:text-lg md:px-10"
+                    >
+                      Clientes
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Fade>
+
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full "
-          src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
-          alt=""
-        />
-      </div>
-
+      <Fade right>
+        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 ">
+          <img
+            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full  "
+            src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+            alt=""
+          />
+        </div>
+      </Fade>
     </div>
   )
 }
