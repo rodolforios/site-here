@@ -35,7 +35,7 @@ const Services = () => {
                             Website Design
                         </h3>
                         <p className="text-md  text-gray-500  py-4">
-                            Desenvolvemos os melhores designs, utilizando a metodologia Design thinkin desde as interfaces até a experiência com o usuário.
+                            Desenvolvemos os melhores designs, utilizando a metodologia Design thinking desde as interfaces até a experiência com o usuário.
                         </p>
                     </div>
                 </Zoom>

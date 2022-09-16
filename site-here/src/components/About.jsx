@@ -28,7 +28,7 @@ const About = () => {
                         </div>
                     </div>
                 </Fade>
-                <Fade top>
+                <Fade bottom>
                     <div className="mt-10 mx-4 md:-mx-12 relative lg:mt-0 lg:col-start-1 ">
                         <img src="/about.gif" alt="illustration" className="relative mx-auto px-3  rounded w-auto" />
 
